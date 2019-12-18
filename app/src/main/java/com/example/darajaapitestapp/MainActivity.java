@@ -105,7 +105,7 @@ public class MainActivity extends AppCompatActivity {
 
     private String initiateStkPush() {
 
-        //Get Phone Number from User Input
+        //Get Phone Number and amount from User Input
 
         String amountSent = amount.getText().toString().trim();
         String user_account_name = account.getText().toString();
